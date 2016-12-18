@@ -14,13 +14,7 @@
 
 ## Overview
 
-A one-maybe-two sentence summary of what the module does/what problem it solves.
-This is your 30 second elevator pitch for your module. Consider including
-OS/Puppet version it works with.
-
 ## Module Description
-
-## Setup
 
 Provides a way to set non-trivial(nfs4) ACL on ZFS file-system via Puppet.
 
@@ -50,7 +44,7 @@ zfsacl { '/transfers/npt/out':
 ## Reference
 
 ###zfsacl(Types) 
-  This type will set the nfs4 style ACL on ZFS file-system. See Usage section.
+  Set the nfs4 style ACL on ZFS file-system. See Usage section.
 
 ## Limitations
 
